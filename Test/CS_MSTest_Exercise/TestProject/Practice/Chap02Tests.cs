@@ -8,7 +8,7 @@ using TargetProject.Chap02;
 namespace TestProject.Practice
 {
     [TestClass]
-    public class Chap02Tests
+    public class GreetingServiceTests
     {
         [TestMethod("朝の時間帯(代表値)ではGood Morningを返す")]
         public void Greet_ShouldReturn_WhenMorning()
