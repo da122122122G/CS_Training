@@ -1,0 +1,14 @@
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/bin/Debug/net8.0/TargetProject
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/bin/Debug/net8.0/TargetProject.deps.json
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/bin/Debug/net8.0/TargetProject.runtimeconfig.json
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/bin/Debug/net8.0/TargetProject.dll
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/bin/Debug/net8.0/TargetProject.pdb
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.AssemblyInfoInputs.cache
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.AssemblyInfo.cs
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.csproj.CoreCompileInputs.cache
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.dll
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/refint/TargetProject.dll
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.pdb
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/TargetProject.genruntimeconfig.cache
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TargetProject/obj/Debug/net8.0/ref/TargetProject.dll
