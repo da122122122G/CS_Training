@@ -14,4 +14,19 @@ public class Calculator
     {
         return x + y;
     }
+
+    /// <summary>
+    /// 除算した結果を整数で返す
+    /// </summary>
+    /// <param name="x">除算する値</param>
+    /// <param name="y">除算する値</param>
+    /// <returns></returns>
+    public int Div(int x, int y)
+    {
+        if (y == 0)
+        {
+            throw new ArgumentException("ゼロ除算はできません。");
+        }
+        return x / y;
+    }
 }

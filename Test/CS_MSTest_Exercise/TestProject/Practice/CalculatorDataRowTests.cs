@@ -46,17 +46,45 @@ public class CalculatorDataRowTests
     }
 
     [DataTestMethod]
-    [DataRow(1, 2, 3, DisplayName = "テストケース1:両方に値がある場合")]
-    [DataRow(null, 2, null, DisplayName = "テストケース2:引数xがnullの場合")]
-    [DataRow(1, null, null, DisplayName = "テストケース3:引数yがnull の場合")]
-    [DataRow(null, null, null, DisplayName = "テストケース4:両方の引数がnullの場合")]
+    [DataRow(10, 5, 2, DisplayName = "テストケース1:10 ÷ 5 = 2")]
+    [DataRow(10, 3, 3, DisplayName = "テストケース2:10 ÷ 3 = 3")]
+
+
     /// <summary>
-    /// Calculator.Addメソッドの単体テスト
-    /// 複数のテストケースをDataRowでまとめて実行する
+    /// CalculatのDivメソッドの単体テスト
     /// </summary>
     /// <param name="x">[DataRow]属性の先頭の値</param>
     /// <param name="y">[DataRow]属性の2番目の値</param>
     /// <param name="expected">[DataRow]属性の3番目の値</param>
+    public void Div_ShouldReturnQuotient_WhenDivisible(int x, int y, int expected)
+    {
+        // Act（実行）
+        // テスト対象のメソッドを実行する
+        var result = calculator!.Div(x, y);
+        // Assert（確認）
+        // 実行結果が期待した値と一致するか確認する
+        Assert.AreEqual(expected, result);
+    }
+
+    [ExpectedException(typeof(ArgumentException))]
+    [DataTestMethod]
+    [DataRow(10, 0, DisplayName = "テストケース3:10 ÷ 0 = ArgumentException")]
+    [DataRow(20, 0, DisplayName = "テストケース4:20 ÷ 0 = ArgumentException")]
+
+    /// <summary>
+    /// CalculatのDivメソッドの単体テスト
+    /// ArgumentExceptionがスローされることをテストする
+    /// </summary>
+    /// <param name="x">[DataRow]属性の先頭の値</param>
+    /// <param name="y">[DataRow]属性の2番目の値</param>
+    public void Div_ShouldThrowArgumentException_WhenDivisible(int x, int y)
+    {
+        // Act（実行）
+        // テスト対象のメソッドを実行する
+        calculator!.Div(x, y);
+    }
+
+
     public void Add_ReturnsExpectedResult(int? x, int? y, int? expected)
     {
         // Act（実行）
