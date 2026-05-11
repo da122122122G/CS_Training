@@ -7,6 +7,29 @@ namespace TestProject.Practice;
 [TestClass]
 public class CalculatorDataRowTests
 {
+    private static TestContext? context;
+    [ClassInitialize]
+    /// <summary>
+    /// すべてのテスト前に1度だけ実行する
+    /// </summary>
+    /// <param name="context"></param>
+    public static void ClassSetup(TestContext _context)
+    {
+        context = _context;
+        context.WriteLine($"ClassSetup:{context.TestName}のテストを開始します。");
+    }
+
+    [ClassCleanup]
+    /// <summary>
+    /// すべてのテスト後に1度だけ実行する
+    /// </summary>
+    /// <param name="context"></param>
+    public static void ClassCleanup()
+    {
+        context!.WriteLine($"ClassCleanup:{context.TestName}のテストを終了しました。");
+    }
+
+
     /// <summary>
     /// テストターゲットのCalculatorを格納するフィールド
     /// </summary>
@@ -31,8 +54,6 @@ public class CalculatorDataRowTests
     /// Calculator.Addメソッドの単体テスト
     /// 複数のテストケースをDataRowでまとめて実行する
     /// </summary>
-
-
     /// <param name="x">[DataRow]属性の先頭の値</param>
     /// <param name="y">[DataRow]属性の2番目の値</param>
     /// <param name="expected">[DataRow]属性の3番目の値</param>
