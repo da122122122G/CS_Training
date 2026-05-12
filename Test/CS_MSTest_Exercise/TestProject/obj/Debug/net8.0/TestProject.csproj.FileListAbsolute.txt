@@ -108,10 +108,10 @@
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProj.121896E9.Up2Date
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.dll
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/refint/TestProject.dll
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.pdb
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/ref/TestProject.dll
-/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
