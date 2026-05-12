@@ -85,14 +85,4 @@ public class CalculatorDataRowTests
     }
 
 
-    public void Add_ReturnsExpectedResult(int? x, int? y, int? expected)
-    {
-        // Act（実行）
-        // テスト対象のメソッドを実行する
-        var result = calculator!.Add(x, y);
-
-        // Assert（確認）
-        // 実行結果が期待した値と一致するか確認する
-        Assert.AreEqual(expected, result);
-    }
 }

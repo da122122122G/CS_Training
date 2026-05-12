@@ -114,3 +114,4 @@
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.pdb
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/ref/TestProject.dll
+/home/fullness/CS_Training/Test/CS_MSTest_Exercise/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
